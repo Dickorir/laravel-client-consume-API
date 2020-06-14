@@ -1,0 +1,124 @@
+.header{
+    background: #ffffff !important;
+}
+.page-header .breadcrumb li.breadcrumb-item.active {
+    color: #092e56;
+    font-weight: 600;
+}
+.header .header-body .header-body-left .header-search-form .form-control, .header .header-body .header-body-left .header-search-form .swal-modal input.swal-content__input, .swal-modal .header .header-body .header-body-left .header-search-form input.swal-content__input {
+    background-color: #bac7c0;
+    border-radius: 100px;
+    padding-left: 45px;
+    border: none;
+    color: white;
+}
+
+#info ul li p{
+    margin-bottom: 1px !important;
+}
+a {
+    color: #092e56;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.app-block .app-sidebar .app-sidebar-menu .list-group .list-group-item.active {
+    background: none;
+    color: #ff0d0d;
+}
+.app-block .app-sidebar .app-sidebar-menu .list-group .list-group-item {
+    background: none;
+    color: #5d5d5d;
+}
+#group-tb tbody tr td{
+    font-size: 13px !important;
+}
+table.dataTable.table-sm>thead>tr>th {
+    font-weight: 800 !important;
+}
+/*.btn.btn-primary, a.btn[href="#next"], a.btn[href="#previous"] {*/
+/*    background: #2dad3b !important;*/
+/*    border-color: #00ff13 !important;*/
+/*    cursor: pointer;*/
+/*}*/
+
+div .mem-info p{
+    margin-bottom: -5px !important;
+    font-size: 13px;
+    color: #796f6f;;
+}
+
+#the-card .icon-block.icon-block-xl {
+    width: 30px;
+    height: 30px;
+    line-height: 70px;
+    font-size: 13px;
+}
+
+#the-card .card .card-body {
+    padding: 10px;
+}
+
+#the-card .card .card-body h6.card-title{
+    margin-bottom: 13px;
+}
+
+#the-card .font-size-35 {
+    font-size: 26px !important;
+}
+.app-block .app-content .app-content-body {
+    padding: 5px !important;
+}
+
+.preloader {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1001;
+    background-color: #ecedf4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* Safari */
+}
+
+.preloader .preloader-icon {
+    border: 5px solid #eeeeee;
+    border-radius: 50%;
+    border-top: 5px solid #2dad3b;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 0.8s linear infinite;
+    animation: spin 0.8s linear infinite;
+}
+.page-link {
+    color: #2dad3b;
+}
+.pagination .page-item.active .page-link {
+    background: #2dad3b;
+    border-color: transparent;
+}
+.nav-pills .nav-link.active {
+    background: #ff0d0d !important;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: #ff0d0d !important;
+}
+
+.navigation{
+    background-color: #7a2327 !important;
+}
+.navigation .navigation-menu-body ul li a{
+    color: white;
+}
+.header ul.navbar-nav li.nav-item a.nav-link {
+    color: #0b0b0b;
+}
+.header ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #0b0b0b;
+}
+.header ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: #0b0b0b;
+}
