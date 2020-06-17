@@ -19,5 +19,10 @@ Route::get('/', function () {
 Route::get('/','Auth\AuthController@index')->name('auth.login');
 Route::post('/login','Auth\AuthController@processLogin')->name('auth.processLogin');
 
-Route::get('products','ProductController@index')->name('product.index');
+Route::middleware('json.auth')->group(function() {
+    Route::get('/dashboard', 'Auth\DashboardController@index')->name('dashboard');
+    Route::resource('/products', 'ProductController');
+});
+
+//Route::get('products','ProductController@index')->name('product.index');
 
